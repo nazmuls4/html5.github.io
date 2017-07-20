@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body, html{
+    height: 100%;
+    
+}
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.hero-content h3{
+    font-family: 'Niconne', cursive;
+    font-size: 45px;
+}
+
+
+
+
+
+.header-top-area {
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.main-menu ul li a {
+    display: block;
+    padding: 35px 0 4px;
+    position: relative;
+}
+.hero-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.hero-area-inner {
+    background-image: url("./assets/img/bg.jpg");
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.hero-area-inner {
+    background-position: center center;
+    background-size: cover;
+}
+.header-area {
+    height: 100%;
+    position: relative;
+}
+.main-menu ul li a::after, .logo h2 a::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.logo h2 {
+    margin: 0;
+}
+.logo h2 a {
+    display: inline-block;
+    position: relative;
+}
+.logo {
+    margin-top: 30px;
+}
+.hero-area-inner {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.heroa-area-tabele {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.hero-area-inner::after {
+    background: #222 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.hero-content {
+    color: #fff;
+}
+.hero-content h2 {
+    font-size: 58px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.bordaread-content {
+    display: inline-block;
+width: 340px;
+}
+.bordaread-content-left, .bordaread-content-right {
+    background: #fff none repeat scroll 0 0;
+float: left;
+height: 2px;
+position: relative;
+width: 43.3333%;
+}
+.bordaread-content i.fa {
+    float: left;
+margin: 0 15px;
+margin-top: -6px;
+}
+.hero-content p {
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.bordaread-content-right::after{
+    border-bottom: 5px solid transparent;
+border-right: 10px solid #fff;
+border-top: 5px solid transparent;
+content: "";
+height: 0;
+position: absolute;
+right: 0;
+top: -4px;
+width: 0;
+}
+
+
+.bordaread-content-left::after{
+ border-top: 5px solid transparent;
+border-left: 10px solid #fff;
+border-bottom: 5px solid transparent;
+content: "";
+height: 0;
+position: absolute;
+left: 0;
+top: -4px;
+width: 0;
+}
+
+
+
+
+.main-menu ul li a::after {
+    opacity: 0;
+    transition: all 1s ease 0s;
+    visibility: hidden;
+}
+.main-menu ul li:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
