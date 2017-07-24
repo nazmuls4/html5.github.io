@@ -1,0 +1,83 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+.hero-inner-content h1 {
+  font-size: 25px;
+}
+    .hero-inner-content {
+ margin-bottom: 4px;
+margin-top: 28px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  
+.footer-area {
+    display: block;
+}
+.welcome-page-area {
+    height: auto;
+}
+.hero-area-table {
+    height: auto;
+    padding: 144px 0;
+}
+.hero-inner-content {
+    margin-bottom: 10px;
+}
+.hero-inner-content h1 {
+    font-size: 30px;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  
+.logo {
+    text-align: center;
+}
+.main-menu {
+    text-align: center;
+}
+.header-area {
+}
+.welcome-page-area {
+    height: auto;
+}
+.footer-area {
+    display: block;
+}
+.hero-area-table {
+    padding: 182px 0;
+}
+.hero-inner-content h1 {
+    font-size: 24px;
+}
+.hero-inner-content {
+    margin-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+}
+.footer-manu {
+    margin-top: 10px;
+    text-align: center;
+}
+.form-area form button {
+    font-size: 12px;
+    width: 100%;
+}
+.form-area form {
+    width: 100%;
+}
+.form-area form input[type="email"] {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}

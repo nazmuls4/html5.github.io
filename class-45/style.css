@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+html, body{
+    height: 100%;    
+}
+
+
+
+
+
+.pricing-table {
+    padding: 100px 0;
+    position: relative;
+}
+.single-price {
+    border: 1px solid #f0f4f9;
+    color: #959ea6;
+    padding: 0 40px;
+    position: relative;
+    text-align: center;
+    transition: all 1s ease 0s;
+}
+.pricing-header h4 {
+    text-transform: capitalize;
+}
+.pricing-header {
+    padding: 25px 0;
+}
+.pricing-currency p {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+.pricing-currency p span {
+    display: block;
+    font-size: 40%;
+}
+.pricing-currency {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.pricing-body ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.pricing-body {
+    padding: 20px 0;
+}
+.pricing-body ul li {
+    line-height: 41px;
+}
+.pricing-footer {
+    padding: 30px 0;
+}
+.pricing-footer a.btn-tril {
+    background: #00aaf7 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px 30px;
+    text-transform: capitalize;
+    transition: all 1s ease 0s;
+}
+.pricing-header h4 span {
+    color: #88ca5b;
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.single-price:hover {
+    box-shadow: 0 0 40px #ddd;
+}
+.single-price.active {
+}
+.single-price.active::before {
+    background: #64bb21 none repeat scroll 0 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single-price:hover .pricing-footer a.btn-tril{
+    background: #222 none repeat scroll 0 0;
+}
