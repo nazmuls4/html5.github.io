@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+
+.welcome-area {
+    background: #323232 none repeat scroll 0 0;
+    color: #9b9b9b;
+    padding: 150px 0;
+}
+.welcome-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.welcome-table-cell {
+}
+.hero-content {
+    font-size: 18px;
+}
+.hero-content h2 {
+    color: #fff;
+    line-height: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.hero-content h2::after {
+    background: #ff4f4c none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 35px;
+}
+.hero-content .see-more-btn {
+    border: 2px solid #ff4f4c;
+    color: #fff;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 170px;
+}
+.see-more-btn i.fa {
+    float: right;
+    line-height: 29px;
+}
+.right-content {
+    position: relative;
+}
+.pricebpox {
+    background: #ff4f4c none repeat scroll 0 0;
+    color: #fff;
+    height: 300px;
+    padding: 19px 40px;
+    position: absolute;
+    right: 112px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 32%;
+}
+.pricebpox h4 {
+    opacity: 0.6;
+}
+.pricebpox a.crt {
+    background: #fff none repeat scroll 0 0;
+    color: #525252;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    left: -25px;
+    line-height: 37px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 50px;
+}
+.right-content img {
+    display: inline-block;
+    padding-top: 171px;
+    position: relative;
+}
+.currency {
+    font-size: 35px;
+}
+
+
+
+.welcome-area-table .owl-controls .owl-dot:nth-child(1) span::after {
+    content: "1";
+}
+.welcome-area-table .owl-controls .owl-dot:nth-child(2) span::after {
+    content: "2";
+}
+.welcome-area-table .owl-controls .owl-dot:nth-child(3) span::after {
+    content: "3";
+}
+.welcome-area-table .owl-controls .owl-dot:nth-child(4) span::after {
+    content: "4";
+}
+.welcome-area-table .owl-controls .owl-dots {
+  height: 226px;
+  margin-top: -113px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+}
+.welcome-area-table .owl-controls .owl-dots .owl-dot {
+  border-left: 2px solid #ddd;
+  display: block;
+  height: 27.33%;
+  margin: 13px 0;
+  padding: 10px;
+}
+.welcome-area-table .owl-controls .owl-dots .owl-dot.active {
+    border-color: #ff4f4c;
+}
