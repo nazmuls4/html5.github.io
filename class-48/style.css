@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,700,800|Roboto:300,400,700,900');
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+   
+}
+
+
+.{
+    font-family: 'Niconne', cursive;
+}
+
+body { 
+font-family: 'Roboto', sans-serif;
+line-height: 1.8;
+font-weight:400;
+font-size: 15px;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+
+.single-pricing {
+    box-shadow: 0 0 10px 0;
+    float: left;
+    font-size: 18px;
+    line-height: 1.86;
+    width: 33.3333%;
+    z-index: 1;
+}
+.pricing-tables {
+    color: #888888;
+    overflow: hidden;
+}
+.single-pricing {
+    margin-top: 30px;
+}
+.single-pricing {
+    padding: 0;
+}
+.pricing-heading {
+    background: #f9f9f9 none repeat scroll 0 0;
+    padding: 70px 0;
+}
+.pricing-heading h3 {
+    color: #888888;
+    font-size: 26px;
+}
+.pricing-heading {
+}
+.pricing-heading h1 {
+    color: #222;
+}
+.price-content ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.price-content {
+    padding: 30px 0;
+}
+.price-content ul li {
+    line-height: 39px;
+}
+.price-content a.price-btn {
+    border: 1px solid #fc103c;
+    border-radius: 50px;
+    color: #fc103c;
+    display: inline-block;
+    margin-top: 17px;
+    padding: 7px 20px;
+}
+.single-pricing.active .pricing-heading {
+    background: #fc103c none repeat scroll 0 0;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.single-pricing.active .pricing-heading h1, .single-pricing.active .pricing-heading h3, .single-pricing.active .pricing-heading {
+    color: #fff;
+}
+.pricing-tables {
+    padding: 45px 20px;
+}
+.single-pricing.active {
+    background: #fff none repeat scroll 0 0;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    padding-bottom: 20px;
+    position: relative;
+    width: 34.333%;
+    z-index: 2;
+}
+.single-pricing.active {
+    margin-top: 0;
+}
+.single-pricing.active .pricing-heading::before {
+    background: #fff none repeat scroll 0 0;
+    color: #222;
+    content: "Fetured";
+    padding: 5px 46px;
+    position: absolute;
+    right: -40px;
+    top: 16px;
+    transform: rotate(45deg);
+}
+.single-pricing.active a.price-btn {
+    background: #fc103c none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-pricing.active {
+    padding-bottom: 60px;
+}
